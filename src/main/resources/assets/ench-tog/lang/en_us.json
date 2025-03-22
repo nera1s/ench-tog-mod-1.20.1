@@ -1,0 +1,15 @@
+{
+  "screen.ench-tag.title": "Enchantments",
+  "screen.ench-tag.no_enchantments": "No enchantments",
+  "screen.ench-tag.save_and_exit": "Save and Exit",
+  "screen.ench-tag.button.on": "On",
+  "screen.ench-tag.button.off": "Off",
+  "screen.ench-tag.cannot_toggle": "Cannot toggle",
+  "enchantment.disabled": "disabled",
+  "tooltip.ench-tag.controller_applied": "Enchantment Controller Applied",
+  "message.ench-tag.controller_not_applied": "Enchantment Controller Not Applied",
+  "item.ench-tog.enchantment_controller": "Enchantment Controller",
+  "itemGroup.ench-tog": "Enchantment Controller Items",
+  "category.ench-tag": "Enchantment Controller",
+  "key.ench-tag.open_screen": "Open controller screen"
+}

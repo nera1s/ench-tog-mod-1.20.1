@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "ench-tog",
+	"version": "1.0.1",
+	"name": "enchantment controller",
+	"description": "This mod adds an item \"enchantment controller\" that can be applied to absolutely any item on an anvil, after which you have the ability to turn on and off any enchantments on enchanted item in youe hand by pressing G by default (the key can be changed in the settings) except curses Crafting recipes and other information can be seen in the images",
+	"authors": [
+		"NERALS"
+	],
+	"license": "ARR",
+	"icon": "assets/ench-tog/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.nerals.Enchtog"
+		],
+		"client": [
+			"com.nerals.EnchtogClient"
+		]
+	},
+	"mixins": [
+		"ench-tog.mixins.json",
+		{
+			"config": "ench-tog.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-key-binding-api-v1": "*",
+		"fabric-networking-api-v1": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

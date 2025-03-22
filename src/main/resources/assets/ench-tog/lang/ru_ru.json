@@ -1,0 +1,15 @@
+{
+  "screen.ench-tag.title": "Зачарования",
+  "screen.ench-tag.no_enchantments": "Нет зачарований",
+  "screen.ench-tag.save_and_exit": "Сохранить и выйти",
+  "screen.ench-tag.button.on": "Вкл",
+  "screen.ench-tag.button.off": "Выкл",
+  "screen.ench-tag.cannot_toggle": "Нельзя переключить",
+  "enchantment.disabled": "отключено",
+  "tooltip.ench-tag.controller_applied": "Контроллер зачарований применен",
+  "message.ench-tag.controller_not_applied": "Контроллер зачарований не применен",
+  "item.ench-tog.enchantment_controller": "Контроллер зачарований",
+  "itemGroup.ench-tog": "Контроллер зачарований предметы",
+  "category.ench-tag": "Контроллер Зачарований",
+  "key.ench-tag.open_screen": "Открыть экран контроллера зачарований"
+}
